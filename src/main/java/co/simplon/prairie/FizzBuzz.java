@@ -40,5 +40,5 @@ public class FizzBuzz {
         return Integer.toString (entier) ;
     
     }
-
 }
+ 
