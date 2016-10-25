@@ -23,12 +23,24 @@ public class FizzBuzz {
      * @param fin   Index (entier) de fin pour l'affichage
      */
     public void afficherListeEntiers(int debut, int fin) {
-        // TODO code à définir
+       for(int entier = 1; entier <= (50); entier++) {}
     }
 
     protected String determinerCorrespondance(int entier) {
-        // TODO code à étoffer
-        return "0";
-    }
+        if (entier==0) 
+        return "0"; 
+
+        if (entier%3==0)
+        return "Fizz";
+
+        else if (entier%5==0)
+        return "Buzz";  
+
+        else
+        return "entier";
+
+     }   
+            
 
 }
+
