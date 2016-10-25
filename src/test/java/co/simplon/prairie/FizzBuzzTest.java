@@ -37,4 +37,11 @@ public class FizzBuzzTest {
                 fizzBuzz.determinerCorrespondance(5)
         );
     }
+    @Test
+    public void la_correspondance_de_7_est_7() {
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals("La correspondance pour 7 doit être 7.","7",fizzBuzz.determinerCorrespondance(7)
+        );
+    }
 }
+
