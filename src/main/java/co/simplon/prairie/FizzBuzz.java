@@ -28,7 +28,25 @@ public class FizzBuzz {
 
     protected String determinerCorrespondance(int entier) {
         // TODO code à étoffer
-        return "0";
+        // Si le reste de la division par 3 = 0 alors returne Fizz
+       
+if (entier == 0)
+        {
+           return Integer.toString(0);
+        }
+        else if (entier % 3 == 0)
+        {
+         return "Fizz";
+        }
+        else if (entier % 5 == 0)
+        {
+         return "Buzz";
+        }
+        else
+        {
+           return Integer.toString(entier);
+        }
+                  
+        }
     }
 
-}

@@ -6,9 +6,8 @@ public class Main {
         /*
             TODO :
 
-            Ecrire le code permettant l'affiche attendu pour la plage [0 ; 50]
-            en utilisant la classe FizzBuzz
-        */
+            Ecrire le code permettant l'affichage attendu pour la plage [0 ; 50]
+            en utilisant la classe FizzBuzz */
 
 
     }
