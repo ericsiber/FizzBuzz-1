@@ -23,6 +23,7 @@ public class FizzBuzz {
      * @param fin   Index (entier) de fin pour l'affichage
      */
     public void afficherListeEntiers(int debut, int fin) {
+        // TODO appeler determinerCorrespondance dans une boucle for
     }
 
     protected String determinerCorrespondance(int entier) {
