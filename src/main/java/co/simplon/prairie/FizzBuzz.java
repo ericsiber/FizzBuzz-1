@@ -36,8 +36,13 @@ public class FizzBuzz {
         else if (entier%5==0)
         return "Buzz";  
 
+        else if(entier==15)
+        return "FizzBuz"; 
+
         else
         return "entier";
+
+           
 
      }   
             

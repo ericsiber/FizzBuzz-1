@@ -37,4 +37,21 @@ public class FizzBuzzTest {
                 fizzBuzz.determinerCorrespondance(5)
         );
     }
+
+     @Test
+    public void test_Exception() {
+       FizzBuzz fizzBuzz = new FizzBuzz();
+        assertEquals(
+                "La correspondance pour 15 doit être FizzBuzz.",
+                "FizzBuzz",
+                fizzBuzz.determinerCorrespondance(15)
+        );
+        
+            
+    }
+
+
+
+
+
 }
