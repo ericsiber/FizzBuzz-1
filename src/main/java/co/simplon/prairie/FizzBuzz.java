@@ -23,30 +23,23 @@ public class FizzBuzz {
      * @param fin   Index (entier) de fin pour l'affichage
      */
     public void afficherListeEntiers(int debut, int fin) {
-        // TODO code à définir
     }
 
     protected String determinerCorrespondance(int entier) {
-        // TODO code à étoffer
         // Si le reste de la division par 3 = 0 alors returne Fizz
        
-if (entier == 0)
-        {
-           return Integer.toString(0);
-        }
-        else if (entier % 3 == 0)
-        {
-         return "Fizz";
-        }
-        else if (entier % 5 == 0)
-        {
-         return "Buzz";
-        }
-        else
-        {
-           return Integer.toString(entier);
-        }
-                  
-        }
+        if (entier == 0)
+                 return Integer.toString(0);
+        if (entier % 3 == 0)
+                 return "Fizz";
+        if (entier % 5 == 0)
+                 return "Buzz";
+        if (entier % 10 == 0)
+                 return "Buzz";
+        if (entier % 15 == 0)
+                 return "Fizz";
+        return Integer.toString(entier);
+        
     }
+}
 
